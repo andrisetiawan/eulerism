@@ -9,7 +9,6 @@ b = 2
 sum = 0
 
 while (a <= 4000000) do
-  puts a
   sum = sum + a if a.even?
   a, b = b, (a+b)
 end
